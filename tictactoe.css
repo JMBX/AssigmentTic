@@ -1,0 +1,38 @@
+body{
+
+background-color: white;
+background: -webkit-linear-gradient(to right ,black);
+background: linear-gradient(to right,black);
+margin: 0px
+}
+
+td{
+width: 100px;
+height: 100px;
+text-align: center;
+font-size: 70px;
+font-family: 'Lato',sans-serif;
+font-weight: lighter;
+color: yellow;
+}
+h1{
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.row1 td, .row2 td{
+    border-bottom: 4px solid brown;
+
+}
+
+.column1, .column2{
+
+    border-right: 4px solid brown;
+}
+table{
+    margin:60px auto   ;
+}
+
